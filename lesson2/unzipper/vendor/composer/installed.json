@@ -1,0 +1,54 @@
+[
+    {
+        "name": "elibyy/zip",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/elibyy/Zip.git",
+            "reference": "6b1248fe5ab76f72add85b74e52a61e156aff2bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/elibyy/Zip/zipball/6b1248fe5ab76f72add85b74e52a61e156aff2bb",
+            "reference": "6b1248fe5ab76f72add85b74e52a61e156aff2bb",
+            "shasum": ""
+        },
+        "require": {
+            "ext-zip": "*",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "ext-zip": "*",
+            "phpunit/phpunit": "~3.7"
+        },
+        "suggest": {
+            "ext-zip": "Some PHP versions does not include it by default"
+        },
+        "time": "2014-10-20 10:18:12",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "Elibyy": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "elibyy",
+                "email": "elibyy@eyurl.com",
+                "homepage": "http://eyurl.com",
+                "role": "developer"
+            }
+        ],
+        "description": "a simple and powerful zip manipulation library",
+        "homepage": "https://github.com/elibyy/Zip",
+        "keywords": [
+            "archive",
+            "unzip",
+            "zip",
+            "ziparchive"
+        ]
+    }
+]

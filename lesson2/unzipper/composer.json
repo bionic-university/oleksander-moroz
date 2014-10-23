@@ -1,0 +1,12 @@
+{
+    "name": "amoroz-prom/unzipper",
+    "authors": [
+        {
+            "name": "moroz",
+            "email": "moroz@gmail.com"
+        }
+    ],
+    "require": {
+		"elibyy/zip": "dev-master"
+		}
+}

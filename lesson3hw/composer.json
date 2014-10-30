@@ -1,0 +1,10 @@
+{
+    "name": "amoroz-prom/lesson3hw",
+    "authors": [
+        {
+            "name": "moroz",
+            "email": "moroz@gmail.com"
+        }
+    ],
+    "require": {"symfony/console": "2.6.*@dev"}
+}

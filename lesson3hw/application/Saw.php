@@ -8,11 +8,11 @@
 require "Board.php";
 class Saw implements Instrument
 {
-    private $Doing;
+    private $Doit;
     private function Nag($bo)
     {
-        $this->Doing = new Board();
-        if($this->Doing->number>$bo){
+        $this->Doit = new Board();
+        if($this->Doit->number>$bo){
             return false;
         }else
         {
@@ -22,6 +22,13 @@ class Saw implements Instrument
     }
     public function DoSomething($bo)
     {
-        $this->Nag($bo);
+        return $this->Nag($bo);
+    }
+    public function GetDifference($bo)
+    {
+        $this->Doit =new Window($bo);
+        if($this->Doit->number>$bo){
+            return ($this->Doit->number - $bo);
+        }
     }
 } 

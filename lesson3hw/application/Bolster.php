@@ -23,4 +23,11 @@ class Bolster implements Instrument
     {
         return $this->Paint($wi);
     }
+    public function GetDifference($wi)
+    {
+        $this->Doing =new Window($wi);
+        if($this->Doing->number>$wi){
+            return ($this->Doing->number - $wi);
+        }
+    }
 } 

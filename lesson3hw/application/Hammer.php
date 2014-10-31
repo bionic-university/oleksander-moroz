@@ -23,6 +23,13 @@ class Hammer implements Instrument
     }
     public function DoSomething($br)
     {
-        $this->Knock($br);
+        return $this->Knock($br);
+    }
+    public function GetDifference($br)
+    {
+        $this->Doing =new Window($br);
+        if($this->Doing->number>$br){
+            return ($this->Doing->number - $br);
+        }
     }
 } 

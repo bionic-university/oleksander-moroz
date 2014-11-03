@@ -5,7 +5,7 @@
  * Date: 30.10.14
  * Time: 20:08
  */
-require "Builder.php";
+require "src/Builder.php";
 $br = $argv[1];
 $bo = $argv[2];
 $wi = $argv[3];

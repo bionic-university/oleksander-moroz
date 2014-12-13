@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAQ;EACN,aAAa,EAAE,IAAI",
+"sources": ["../../sass/main-page/wrapper.sass"],
+"names": [],
+"file": "wrapper.css"
+}

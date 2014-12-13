@@ -93,11 +93,40 @@
 
 /*# sourceMappingURL=b-task_or_user-list.css.map */
 
+.b-task_or_user-list__item-author {
+  display: inline-block;
+  width: 50%; }
+
+/*# sourceMappingURL=b-task_or_user-list__item-author.css.map */
+
+.b-task_or_user-list__item-email {
+  display: inline-block;
+  width: 50%; }
+
+/*# sourceMappingURL=b-task_or_user-list__item-email.css.map */
+
+.b-task_or_user-list__item-taskdescription {
+  display: inline-block;
+  width: 50%; }
+
+/*# sourceMappingURL=b-task_or_user-list__item-taskdescription.css.map */
+
+.b-task_or_user-list__item-taskname {
+  display: inline-block;
+  width: 50%; }
+
+/*# sourceMappingURL=b-task_or_user-list__item-taskname.css.map */
+
 .b-task_or_user-list__item {
   margin-top: 5px;
   margin-left: 15px; }
 
 /*# sourceMappingURL=b-task_or_user-list__item.css.map */
+
+.wrapper {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=wrapper.css.map */
 
 .b-layout__enter-form {
   width: 100%; }

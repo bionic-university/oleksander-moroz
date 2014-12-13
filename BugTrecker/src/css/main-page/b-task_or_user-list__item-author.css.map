@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iCAAiC;EAC/B,OAAO,EAAE,YAAY;EACrB,KAAK,EAAE,GAAG",
+"sources": ["../../sass/main-page/b-task_or_user-list__item-author.sass"],
+"names": [],
+"file": "b-task_or_user-list__item-author.css"
+}
